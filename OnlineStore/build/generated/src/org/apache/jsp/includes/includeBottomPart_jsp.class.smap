@@ -1,0 +1,10 @@
+SMAP
+includeBottomPart_jsp.java
+JSP
+*S JSP
+*F
++ 0 includeBottomPart.jsp
+includes/includeBottomPart.jsp
+*L
+1,9:44
+*E

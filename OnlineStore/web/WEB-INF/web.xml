@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+    <!-- servlet definitions -->
+    <servlet>
+        <servlet-name>CategoryCntrl</servlet-name>
+        <servlet-class>controller.CategoryCntrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserCntrl</servlet-name>
+        <servlet-class>controller.UserCntrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StudentCntrl</servlet-name>
+        <servlet-class>controller.StudentCntrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BookCntrl</servlet-name>
+        <servlet-class>controller.BookCntrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoanCntrl</servlet-name>
+        <servlet-class>controller.LoanCntrl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Admin</servlet-name>
+        <servlet-class>controller.AdminCntrl</servlet-class>
+    </servlet>
+    
+     <!-- servlet mappings -->
+    <servlet-mapping>
+        <servlet-name>UserCntrl</servlet-name>
+        <url-pattern>/user/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CategoryCntrl</servlet-name>
+        <url-pattern>/AddCategory</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StudentCntrl</servlet-name>
+        <url-pattern>/student/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>BookCntrl</servlet-name>
+        <url-pattern>/book/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoanCntrl</servlet-name>
+        <url-pattern>/loan/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/admin/*</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>welcomePage.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

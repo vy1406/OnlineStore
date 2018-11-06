@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="build/generated/src"/>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derby.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyclient.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbynet.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyoptionaltools.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbyrun.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/derbytools.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="maven.groupId" value="javax"/>
+			<attribute name="maven.artifactId" value="javaee-web-api"/>
+			<attribute name="maven.version" value="6.0"/>
+			<attribute name="maven.scope" value="provided"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/USER/MyDocs/AfterStudy/Java/uDemyProjects/HIBERNATE/jasper.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/MyDocs/AfterStudy/Java/uDemyProjects/HIBERNATE/glassfish.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/MyDocs/AfterStudy/Java/uDemyProjects/HIBERNATE/javax.servlet.jsp-2.2.2.jar"/>
+	<classpathentry kind="output" path="build/generated/classes"/>
+</classpath>

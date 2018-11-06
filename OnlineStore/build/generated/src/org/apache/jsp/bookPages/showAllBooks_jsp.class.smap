@@ -1,0 +1,22 @@
+SMAP
+showAllBooks_jsp.java
+JSP
+*S JSP
+*F
++ 0 showAllBooks.jsp
+bookPages/showAllBooks.jsp
+*L
+1:45
+2:46,2
+3,8:48
+11:56,7
+12:63,3
+13:66
+14,7:67,3
+21,6:88
+27:94,3
+28:97
+29:98,3
+30,8:101
+37:108
+*E
